@@ -5,9 +5,11 @@
 **Registration Number:** 252U1R9132  
 **Section:** CSE Generative AI - 2C
 
+
 ## Live Link
 
-Not deployed yet.
+[Open the deployed application](https://bdf-lab-01.onrender.com/)
+
 
 ## Objective
 
