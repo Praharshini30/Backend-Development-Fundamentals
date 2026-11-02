@@ -91,10 +91,96 @@ The following debugging scenarios were covered:
 - **Incorrect import path:** Fixing incorrect file or database paths.
 - **Table name error:** Resolving `no such table` errors by using the correct table name.
 - **Missing await:** Ensuring asynchronous database operations complete before sending responses.
-
 ## 8. Screenshots
 
-Postman screenshots demonstrating successful API requests and error-handling scenarios are included in the `screenshots` folder.
+All Postman API requests and responses are demonstrated below.
+
+### GET Requests
+
+#### GET Limit
+![GET Limit](screenshots/GET_limit.png)
+
+#### GET Offset
+![GET Offset](screenshots/GET_offset.png)
+
+#### GET Search
+![GET Search](screenshots/GET_search_q.png)
+
+#### GET Sorting by Price - Descending
+![GET Price Descending](screenshots/GET_order_by_price_DESC.png)
+
+#### GET Sorting by Price - Ascending
+![GET Price Ascending](screenshots/GET_order_by_price_ASC.png)
+
+#### GET Minimum Price
+![GET Minimum Price](screenshots/GET_min_price.png)
+
+#### GET Maximum Price
+![GET Maximum Price](screenshots/GET_max_price.png)
+
+#### GET Price Range
+![GET Price Range](screenshots/GET_price_range.png)
+
+#### GET Invalid Limit
+![GET Invalid Limit](screenshots/GET_invalid_limit.png)
+
+#### GET Invalid Offset
+![GET Invalid Offset](screenshots/GET_invalid_offset.png)
+
+#### GET Invalid Order By
+![GET Invalid Order By](screenshots/GET_invalid_order_by.png)
+
+#### GET Invalid Order
+![GET Invalid Order](screenshots/GET_invalid_order.png)
+
+#### GET Invalid Minimum Price
+![GET Invalid Minimum Price](screenshots/GET_invalid_min_price.png)
+
+#### GET Invalid Maximum Price
+![GET Invalid Maximum Price](screenshots/GET_invalid_max_price.png)
+
+#### GET Invalid Price Range
+![GET Invalid Price Range](screenshots/GET_invalid_price_range.png)
+
+#### GET Book by ID
+![GET Book by ID](screenshots/GET_book_by_ID.png)
+
+#### GET Book Not Found
+![GET Book Not Found](screenshots/GET_book_not_found.png)
+
+### POST Requests
+
+#### POST Add Book
+![POST Add Book](screenshots/POST_add_book.png)
+
+#### POST Missing Title
+![POST Missing Title](screenshots/POST_missing_title.png)
+
+#### POST Missing Author
+![POST Missing Author](screenshots/POST_missing_author.png)
+
+#### POST Missing Price
+![POST Missing Price](screenshots/POST_missing_price.png)
+
+#### POST Invalid Price
+![POST Invalid Price](screenshots/POST_invalid_price.png)
+
+### PUT Requests
+
+#### PUT Update Book
+![PUT Update Book](screenshots/PUT_update_book.png)
+
+#### PUT Book Not Found
+![PUT Book Not Found](screenshots/PUT_book_not_found.png)
+
+### DELETE Requests
+
+#### DELETE Book
+![DELETE Book](screenshots/DELETE_book.png)
+
+#### DELETE Book Not Found
+![DELETE Book Not Found](screenshots/DELETE_book_not_found.png)
+
 
 ### GET Requests
 
